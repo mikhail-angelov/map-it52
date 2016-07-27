@@ -23,11 +23,12 @@ const mapDispatchToProps = (dispatch) => {
     onShowBalloon: (maker) => {
       dispatch(action.showBalloon(maker))
     },
-    onCloseBalloon: ()=>dispatch(action.closeBalloon()),
+    onCloseBalloon: () => dispatch(action.closeBalloon()),
     onShowDetails: (maker) => {
+      dispatch(action.fetchDetailInfoIfNeeded(maker))
       dispatch(action.showDetails(maker))
     },
-    onCloseDetails: ()=>dispatch(action.closeDetails())
+    onCloseDetails: () => dispatch(action.closeDetails())
   }
 }
 
