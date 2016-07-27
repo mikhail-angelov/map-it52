@@ -1,0 +1,76 @@
+.balloon {
+    --nose-size: 6px;
+    --nose-size2: calc(var(--nose-size) * 2);
+    --nose-size-2: calc(1px - var(--nose-size2));
+    --nose-size-b: calc(0px - var(--nose-size2));
+    --balloon-color: white;
+    --balloon-border-color: grey;
+    border: 1px solid var(--balloon-border-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--balloon-color);
+    top: -145px;
+    left: -125px;
+    width: 250px;
+    height: 120px;
+    z-index: 2;
+    position: relative;
+}
+
+.balloon:after {
+    content: "";
+    position: absolute;
+    bottom: var(--nose-size-2);
+    right: calc(50% - var(--nose-size));
+    width: 0;
+    height: 0;
+    border-left: var(--nose-size) solid transparent;
+    border-right: var(--nose-size) solid transparent;
+    border-top: var(--nose-size2) solid var(--balloon-color);
+}
+
+.balloon:before {
+    content: "";
+    position: absolute;
+    bottom: var(--nose-size-b);
+    right: calc(50% - var(--nose-size));
+    width: 0;
+    height: 0;
+    border-left: var(--nose-size) solid transparent;
+    border-right: var(--nose-size) solid transparent;
+    border-top: var(--nose-size2) solid var(--balloon-border-color);
+}
+
+.balloon .balloon-name {
+    flex: 1;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.balloon .balloon-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 0;
+    background-color: transparent;
+    transition-duration: 0.8s;
+    font-size: 14px;
+}
+
+.balloon .balloon-close:before {
+    content: '✕'
+}
+
+.balloon .balloon-close:hover {
+    transform: rotate(90deg)
+}
+
+.balloon .balloon-details {
+    margin-bottom: 5px;
+    font-size: 14px;
+    background: cornflowerblue;
+    border: 0;
+    padding: 7px;
+}

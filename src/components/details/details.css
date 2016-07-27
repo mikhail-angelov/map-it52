@@ -1,0 +1,39 @@
+.details{
+    z-index: 100;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 1200px;
+}
+
+.details .icon{
+
+}
+
+.details .name{
+	
+}
+
+.details .description{
+	
+}
+
+.details .details-close{
+	position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 0;
+    background-color: transparent;
+    transition-duration: 0.8s;
+    font-size: 24px;
+}
+
+.details .details-close:before {
+    content: '✕'
+}
+
+.details .details-close:hover {
+    transform: rotate(90deg)
+}

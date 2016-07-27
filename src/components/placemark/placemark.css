@@ -1,0 +1,20 @@
+.placemark {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    z-index: 1;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.hint {
+    border: 1px solid goldenrod;
+    background-color: 'grey';
+    display: inline-block;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: gainsboro;
+    z-index: 10;
+}
