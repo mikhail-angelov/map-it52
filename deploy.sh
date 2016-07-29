@@ -1,7 +1,7 @@
 #!/bin/bash
 npm run build
 
-git checkout --orphan gh-pages
+git checkout gh-pages
 
 rm -rf /tmp/deploy
 mkdir /tmp/deploy
