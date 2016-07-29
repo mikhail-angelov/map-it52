@@ -18,4 +18,4 @@ rm -rf *.*
 mv /tmp/deploy/node_modules .
 rm -rf /tmp/deploy
 git checkout master
-git pull
+git reset --hard HEAD
