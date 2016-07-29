@@ -496,4 +496,698 @@
 		"240": "https://hhcdn.ru/employer-logo/1800487.png",
 		"original": "https://hhcdn.ru/employer-logo-original/339555.png"
 	}
+},
+{
+	"logo": null,
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=115",
+	"name": "Ай-Теко (I-Teco)",
+	"url": "https://api.hh.ru/employers/115",
+	"alternate_url": "https://hh.ru/employer/115",
+	"id": "115",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Разработчик C#"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/650165.png",
+		"240": "https://hhcdn.ru/employer-logo/650166.png",
+		"original": "https://hhcdn.ru/employer-logo-original/233640.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=172",
+	"name": "1C-Рарус",
+	"url": "https://api.hh.ru/employers/172",
+	"alternate_url": "https://hh.ru/employer/172",
+	"id": "172",
+	"trusted": true,
+	"address": {
+		"building": null,
+		"city": null,
+		"description": null,
+		"metro": null,
+		"metro_stations": [],
+		"raw": "Нижний Новгород, м. Горьковская, Нижневолжская набережная, 4",
+		"street": null,
+		"lat": null,
+		"lng": null,
+		"id": "348577"
+	},
+	"info": "undefined Руководитель проектов (Технический руководитель проектов)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/308523.png",
+		"240": "https://hhcdn.ru/employer-logo/381380.png",
+		"original": "https://hhcdn.ru/employer-logo-original/233368.gif"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=733",
+	"name": "ЛАНИТ",
+	"url": "https://api.hh.ru/employers/733",
+	"alternate_url": "https://hh.ru/employer/733",
+	"id": "733",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Разработчик Java/BPM"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1508486.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1508487.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/266489.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=738",
+	"name": "Auriga",
+	"url": "https://api.hh.ru/employers/738",
+	"alternate_url": "https://hh.ru/employer/738",
+	"id": "738",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Старший разработчик PHP"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/289028.png",
+		"240": "https://hhcdn.ru/employer-logo/289170.png",
+		"original": "https://hhcdn.ru/employer-logo-original/232732.gif"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=1740",
+	"name": "Яндекс",
+	"url": "https://api.hh.ru/employers/1740",
+	"alternate_url": "https://hh.ru/employer/1740",
+	"id": "1740",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Разработчик мобильных приложений для Android"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1592774.png",
+		"240": "https://hhcdn.ru/employer-logo/1592775.png",
+		"original": "https://hhcdn.ru/employer-logo-original/287595.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2033",
+	"name": "HARMAN Connected Services",
+	"url": "https://api.hh.ru/employers/2033",
+	"alternate_url": "https://hh.ru/employer/2033",
+	"id": "2033",
+	"trusted": true,
+	"address": null,
+	"info": "undefined QT/QML Developer"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/534098.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/534099.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/232469.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2264",
+	"name": "MERA",
+	"url": "https://api.hh.ru/employers/2264",
+	"alternate_url": "https://hh.ru/employer/2264",
+	"id": "2264",
+	"trusted": true,
+	"address": null,
+	"info": "undefined C++ / Android platform Developer"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/536696.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/536697.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/232439.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2322",
+	"name": "АйТи",
+	"url": "https://api.hh.ru/employers/2322",
+	"alternate_url": "https://hh.ru/employer/2322",
+	"id": "2322",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Младший инженер-программист"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1065581.png",
+		"240": "https://hhcdn.ru/employer-logo/1065582.png",
+		"original": "https://hhcdn.ru/employer-logo-original/232418.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2381",
+	"name": "Softline",
+	"url": "https://api.hh.ru/employers/2381",
+	"alternate_url": "https://hh.ru/employer/2381",
+	"id": "2381",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Веб-программист"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1082768.png",
+		"240": "https://hhcdn.ru/employer-logo/1082769.png",
+		"original": "https://hhcdn.ru/employer-logo-original/232326.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2631",
+	"name": "Аплана Софтвер",
+	"url": "https://api.hh.ru/employers/2631",
+	"alternate_url": "https://hh.ru/employer/2631",
+	"id": "2631",
+	"trusted": true,
+	"address": null,
+	"info": "undefined C# разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/870398.png",
+		"240": "https://hhcdn.ru/employer-logo/870399.png",
+		"original": "https://hhcdn.ru/employer-logo-original/232292.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2716",
+	"name": "Intel Corporation",
+	"url": "https://api.hh.ru/employers/2716",
+	"alternate_url": "https://hh.ru/employer/2716",
+	"id": "2716",
+	"trusted": true,
+	"address": {
+		"building": null,
+		"city": null,
+		"description": null,
+		"metro": null,
+		"metro_stations": [],
+		"raw": "Нижний Новгород, Тургенева, 30",
+		"street": null,
+		"lat": 0,
+		"lng": 0,
+		"id": "6163"
+	},
+	"info": "undefined OpenCL Compiler Development Intern"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/629696.png",
+		"240": "https://hhcdn.ru/employer-logo/629697.png",
+		"original": "https://hhcdn.ru/employer-logo-original/232231.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2866",
+	"name": "Artezio",
+	"url": "https://api.hh.ru/employers/2866",
+	"alternate_url": "https://hh.ru/employer/2866",
+	"id": "2866",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Frontend-разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1555613.png",
+		"240": "https://hhcdn.ru/employer-logo/1555614.png",
+		"original": "https://hhcdn.ru/employer-logo-original/278279.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2987",
+	"name": "КРОК инкорпорейтед",
+	"url": "https://api.hh.ru/employers/2987",
+	"alternate_url": "https://hh.ru/employer/2987",
+	"id": "2987",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Инженер-разработчик проектов поддержки"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1036292.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1036293.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/232130.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=3095",
+	"name": "Инфосистемы Джет",
+	"url": "https://api.hh.ru/employers/3095",
+	"alternate_url": "https://hh.ru/employer/3095",
+	"id": "3095",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Java-разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/750167.png",
+		"240": "https://hhcdn.ru/employer-logo/750168.png",
+		"original": "https://hhcdn.ru/employer-logo-original/231325.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=4809",
+	"name": "Регистратура.Ру",
+	"url": "https://api.hh.ru/employers/4809",
+	"alternate_url": "https://hh.ru/employer/4809",
+	"id": "4809",
+	"trusted": true,
+	"address": null,
+	"info": "undefined PHP-разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/682040.png",
+		"240": "https://hhcdn.ru/employer-logo/682041.png",
+		"original": "https://hhcdn.ru/employer-logo-original/230087.bmp"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=9188",
+	"name": "Бюджетные и Финансовые Технологии",
+	"url": "https://api.hh.ru/employers/9188",
+	"alternate_url": "https://hh.ru/employer/9188",
+	"id": "9188",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Java-разработчик (САУМИ)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/312096.png",
+		"240": "https://hhcdn.ru/employer-logo/384953.png",
+		"original": "https://hhcdn.ru/employer-logo-original/229528.gif"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=11749",
+	"name": "ОТР",
+	"url": "https://api.hh.ru/employers/11749",
+	"alternate_url": "https://hh.ru/employer/11749",
+	"id": "11749",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Системный аналитик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1721966.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1721967.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/319900.JPG"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=12878",
+	"name": "МФИ Софт",
+	"url": "https://api.hh.ru/employers/12878",
+	"alternate_url": "https://hh.ru/employer/12878",
+	"id": "12878",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Руководитель группы разработчиков (team leader)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1692510.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1692511.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/312536.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=20145",
+	"name": "AT Consulting",
+	"url": "https://api.hh.ru/employers/20145",
+	"alternate_url": "https://hh.ru/employer/20145",
+	"id": "20145",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Java-разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/315967.png",
+		"240": "https://hhcdn.ru/employer-logo/388824.png",
+		"original": "https://hhcdn.ru/employer-logo-original/225651.gif"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=30596",
+	"name": "Ivelum",
+	"url": "https://api.hh.ru/employers/30596",
+	"alternate_url": "https://hh.ru/employer/30596",
+	"id": "30596",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Senior Full Stack Web Developer (Python, Django, JavaScript)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/318236.png",
+		"240": "https://hhcdn.ru/employer-logo/391093.png",
+		"original": "https://hhcdn.ru/employer-logo-original/223410.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=41144",
+	"name": "АСКОН",
+	"url": "https://api.hh.ru/employers/41144",
+	"alternate_url": "https://hh.ru/employer/41144",
+	"id": "41144",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Программист C++"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/815468.png",
+		"240": "https://hhcdn.ru/employer-logo/815469.png",
+		"original": "https://hhcdn.ru/employer-logo-original/222683.gif"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=44272",
+	"name": "Дом.ru",
+	"url": "https://api.hh.ru/employers/44272",
+	"alternate_url": "https://hh.ru/employer/44272",
+	"id": "44272",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Кабельщик (монтажник ВОЛС)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/322555.png",
+		"240": "https://hhcdn.ru/employer-logo/395412.png",
+		"original": "https://hhcdn.ru/employer-logo-original/219129.gif"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=57862",
+	"name": "Convergent Media Group",
+	"url": "https://api.hh.ru/employers/57862",
+	"alternate_url": "https://hh.ru/employer/57862",
+	"id": "57862",
+	"trusted": true,
+	"address": null,
+	"info": "undefined HTML-верстальщик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/846479.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/846480.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/213885.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=81267",
+	"name": "Группа комплексных решений",
+	"url": "https://api.hh.ru/employers/81267",
+	"alternate_url": "https://hh.ru/employer/81267",
+	"id": "81267",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Разработчик мобильного приложения для Android"
+}, {
+	"logo": null,
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=84359",
+	"name": "Центр-СБК",
+	"url": "https://api.hh.ru/employers/84359",
+	"alternate_url": "https://hh.ru/employer/84359",
+	"id": "84359",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Программист"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/330597.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/403454.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/211210.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=93051",
+	"name": "ЛАД",
+	"url": "https://api.hh.ru/employers/93051",
+	"alternate_url": "https://hh.ru/employer/93051",
+	"id": "93051",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Программист С++"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/810383.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/810384.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/181360.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=534283",
+	"name": "Searchinform",
+	"url": "https://api.hh.ru/employers/534283",
+	"alternate_url": "https://hh.ru/employer/534283",
+	"id": "534283",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Программист С++"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/359009.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/431866.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/181263.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=534672",
+	"name": "ИнтеллиВижн",
+	"url": "https://api.hh.ru/employers/534672",
+	"alternate_url": "https://hh.ru/employer/534672",
+	"id": "534672",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Технический специалист по работе с заказчиками"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/466169.png",
+		"240": "https://hhcdn.ru/employer-logo/466170.png",
+		"original": "https://hhcdn.ru/employer-logo-original/155597.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=665467",
+	"name": "Гринатом",
+	"url": "https://api.hh.ru/employers/665467",
+	"alternate_url": "https://hh.ru/employer/665467",
+	"id": "665467",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Специалист (программист 1С)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/723881.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/723882.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/146205.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=725989",
+	"name": "Атос АйТи Солюшенс энд Сервисез",
+	"url": "https://api.hh.ru/employers/725989",
+	"alternate_url": "https://hh.ru/employer/725989",
+	"id": "725989",
+	"trusted": true,
+	"address": null,
+	"info": "undefined ABAP разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1484810.png",
+		"240": "https://hhcdn.ru/employer-logo/1484811.png",
+		"original": "https://hhcdn.ru/employer-logo-original/260570.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=815269",
+	"name": "Wrike",
+	"url": "https://api.hh.ru/employers/815269",
+	"alternate_url": "https://hh.ru/employer/815269",
+	"id": "815269",
+	"trusted": true,
+	"address": null,
+	"info": "undefined JavaScript Developer"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1471578.png",
+		"240": "https://hhcdn.ru/employer-logo/1471579.png",
+		"original": "https://hhcdn.ru/employer-logo-original/257262.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=851716",
+	"name": "ASD Technologies",
+	"url": "https://api.hh.ru/employers/851716",
+	"alternate_url": "https://hh.ru/employer/851716",
+	"id": "851716",
+	"trusted": true,
+	"address": null,
+	"info": "undefined QA lead / ведущий инженер по тестированию"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1383785.png",
+		"240": "https://hhcdn.ru/employer-logo/1383786.png",
+		"original": "https://hhcdn.ru/employer-logo-original/235277.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=855766",
+	"name": "НОРСИ-ТРАНС",
+	"url": "https://api.hh.ru/employers/855766",
+	"alternate_url": "https://hh.ru/employer/855766",
+	"id": "855766",
+	"trusted": true,
+	"address": {
+		"building": null,
+		"city": null,
+		"description": null,
+		"metro": {
+			"line_name": "Автозаводская",
+			"station_id": "50.278",
+			"line_id": "50",
+			"lat": 56.313933,
+			"station_name": "Горьковская",
+			"lng": 43.99482
+		},
+		"metro_stations": [{
+			"line_name": "Автозаводская",
+			"station_id": "50.278",
+			"line_id": "50",
+			"lat": 56.313933,
+			"station_name": "Горьковская",
+			"lng": 43.99482
+		}],
+		"raw": null,
+		"street": null,
+		"lat": null,
+		"lng": null,
+		"id": "439417"
+	},
+	"info": "undefined Инженер по внедрению / поддержки 3 уровня"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1049534.png",
+		"240": "https://hhcdn.ru/employer-logo/1049535.png",
+		"original": "https://hhcdn.ru/employer-logo-original/108750.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=939874",
+	"name": "Nitka Technologies",
+	"url": "https://api.hh.ru/employers/939874",
+	"alternate_url": "https://hh.ru/employer/939874",
+	"id": "939874",
+	"trusted": true,
+	"address": {
+		"building": null,
+		"city": null,
+		"description": null,
+		"metro": null,
+		"metro_stations": [],
+		"raw": "Нижний Новгород, улица Нартова, 6 к 6",
+		"street": null,
+		"lat": null,
+		"lng": null,
+		"id": "132675"
+	},
+	"info": "undefined Lead iOS Developer / Tech Lead"
+}, {
+	"logo": null,
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=987958",
+	"name": "КА Простые решения",
+	"url": "https://api.hh.ru/employers/987958",
+	"alternate_url": "https://hh.ru/employer/987958",
+	"id": "987958",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Программист-разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/757235.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/757236.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/79340.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=1089669",
+	"name": "СКИФМЬЮЗИК",
+	"url": "https://api.hh.ru/employers/1089669",
+	"alternate_url": "https://hh.ru/employer/1089669",
+	"id": "1089669",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Back-end разработчик (PHP)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1060568.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1060569.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/59927.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=1191071",
+	"name": "ACI Worldwide Russia",
+	"url": "https://api.hh.ru/employers/1191071",
+	"alternate_url": "https://hh.ru/employer/1191071",
+	"id": "1191071",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Software Engineer (Java)"
+}, {
+	"logo": null,
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=1619521",
+	"name": "Интэком",
+	"url": "https://api.hh.ru/employers/1619521",
+	"alternate_url": "https://hh.ru/employer/1619521",
+	"id": "1619521",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Программист C#"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1437605.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1437606.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/248733.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=1751739",
+	"name": "Arkadium",
+	"url": "https://api.hh.ru/employers/1751739",
+	"alternate_url": "https://hh.ru/employer/1751739",
+	"id": "1751739",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Game Development Team Lead (г. Краснодар)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1483038.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1483039.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/260127.jpg"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=1793216",
+	"name": "Солар Секьюрити",
+	"url": "https://api.hh.ru/employers/1793216",
+	"alternate_url": "https://hh.ru/employer/1793216",
+	"id": "1793216",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Разработчик Java/Scala"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1722998.jpeg",
+		"240": "https://hhcdn.ru/employer-logo/1722999.jpeg",
+		"original": "https://hhcdn.ru/employer-logo-original/320158.JPG"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2243817",
+	"name": "Мейк ивентс",
+	"url": "https://api.hh.ru/employers/2243817",
+	"alternate_url": "https://hh.ru/employer/2243817",
+	"id": "2243817",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Ember.JS разработчик"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1777422.png",
+		"240": "https://hhcdn.ru/employer-logo/1777423.png",
+		"original": "https://hhcdn.ru/employer-logo-original/333768.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2366627",
+	"name": "Первый ОФД",
+	"url": "https://api.hh.ru/employers/2366627",
+	"alternate_url": "https://hh.ru/employer/2366627",
+	"id": "2366627",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Инженер по развертыванию программного обеспечения / системный администратор DevOps"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1799990.png",
+		"240": "https://hhcdn.ru/employer-logo/1799991.png",
+		"original": "https://hhcdn.ru/employer-logo-original/339431.png"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2415103",
+	"name": "Medigram",
+	"url": "https://api.hh.ru/employers/2415103",
+	"alternate_url": "https://hh.ru/employer/2415103",
+	"id": "2415103",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Senior JavaScript Developer (Web/Ember/jQuery/REST/Remote)"
+}, {
+	"logo": {
+		"90": "https://hhcdn.ru/employer-logo/1813598.png",
+		"240": "https://hhcdn.ru/employer-logo/1813599.png",
+		"original": "https://hhcdn.ru/employer-logo-original/342833.gif"
+	},
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2436044",
+	"name": "Lemon Technologies Group",
+	"url": "https://api.hh.ru/employers/2436044",
+	"alternate_url": "https://hh.ru/employer/2436044",
+	"id": "2436044",
+	"trusted": true,
+	"address": {
+		"building": null,
+		"city": null,
+		"description": null,
+		"metro": {
+			"line_name": "Автозаводская",
+			"station_id": "50.278",
+			"line_id": "50",
+			"lat": 56.313933,
+			"station_name": "Горьковская",
+			"lng": 43.99482
+		},
+		"metro_stations": [{
+			"line_name": "Автозаводская",
+			"station_id": "50.278",
+			"line_id": "50",
+			"lat": 56.313933,
+			"station_name": "Горьковская",
+			"lng": 43.99482
+		}],
+		"raw": null,
+		"street": null,
+		"lat": null,
+		"lng": null,
+		"id": "675696"
+	},
+	"info": "undefined Дизайнер-верстальщик (web, wap)"
+}, {
+	"logo": null,
+	"vacancies_url": "https://api.hh.ru/vacancies?employer_id=2443416",
+	"name": "Productors",
+	"url": "https://api.hh.ru/employers/2443416",
+	"alternate_url": "https://hh.ru/employer/2443416",
+	"id": "2443416",
+	"trusted": true,
+	"address": null,
+	"info": "undefined Программист PHP"
 }]

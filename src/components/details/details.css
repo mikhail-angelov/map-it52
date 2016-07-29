@@ -20,7 +20,34 @@
     width: 260px;
     text-align: right;
 }
-
+.details .actions{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.details .details-button{
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 0;
+    padding: 7px;
+}
+.details-button.blue{
+    background: cornflowerblue;
+}
+.details-button.pink{
+    background: pink;
+}
+.details-button.green{
+    background: seagreen;
+}
+.details-button.yellow{
+    background: yellowgreen;
+}
+.details-button.black{
+    background: black;
+    color: white;
+}
 .details .info{
 	display: flex;
     flex: 1;

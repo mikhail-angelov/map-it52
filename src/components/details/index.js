@@ -36,6 +36,13 @@ export default ({details, onClose}) => {
 					{region}
 					{location}
 				</div>
+				<div className='actions'>
+					<button className='details-button blue' onClick={()=>alert('Not implemented','No data')}>Отзывы</button>
+					<button className='details-button pink' onClick={()=>alert('Not implemented','No data')}>Сотрудники</button>
+					<button className='details-button green' onClick={()=>alert('Not implemented','No data')}>Вакансии</button>
+					<button className='details-button yellow' onClick={()=>alert('Not implemented','No data')}>Собеседования</button>
+					<button className='details-button black' onClick={()=>alert('Not implemented','No data')}>Зарплаты</button>
+				</div>
 			</div>
 			{description}
 			<button className='details-close' onClick={onClose}></button>
