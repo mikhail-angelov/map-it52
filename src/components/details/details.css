@@ -5,7 +5,8 @@
     flex-direction: column;
     position: relative;
     align-items: center;
-    width: 1200px;
+    width: 1000px;
+    margin-left: 50px;
 }
 
 .details .top{

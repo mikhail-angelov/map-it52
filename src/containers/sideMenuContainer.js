@@ -13,7 +13,12 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     onToggle: ()=>dispatch(action.toggleSideMenu()),
-    onSearch: (term)=>dispatch(action.search(term))
+    onSearch: (term)=>dispatch(action.search(term)),
+    onSelect: (maker) => {
+      dispatch(action.centralMap(maker))
+      dispatch(action.fetchDetailInfoIfNeeded(maker))
+      dispatch(action.showDetails(maker))
+    }
   }
 }
 

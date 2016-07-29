@@ -85,3 +85,8 @@ export const search = (term)=>{
         term
     }
 }
+
+export const centralMap = (marker) => ({
+    type: 'CENTRAL_MAP',
+    marker
+})

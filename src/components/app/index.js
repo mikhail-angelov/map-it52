@@ -9,7 +9,6 @@ const App = () => (
     position: 'relative',
     overflow: 'hidden',
     display: 'flex',
-    justifyContent: 'center',
     alignItems: 'center'
   }}>
     <DetailsContainer />
