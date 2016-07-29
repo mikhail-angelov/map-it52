@@ -27,7 +27,7 @@ export default class SimpleMapPage extends Component {
                 defaultCenter={this.props.default.center}
                 defaultZoom={this.props.default.zoom}
                 bootstrapURLKeys={{
-                    key: AIzaSyBfYaSSHpk - h_m0DADxoXuf0fCYtsIcSA0,
+                    key: 'AIzaSyBfYaSSHpk-h_m0DADxoXuf0fCYtsIcSA0',
                     language: 'ru'
                 }}>
                 {markers}
