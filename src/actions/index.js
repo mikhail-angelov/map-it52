@@ -72,3 +72,16 @@ export function fetchDetailInfoIfNeeded(marker) {
         }
     }
 }
+
+export const toggleSideMenu = ()=>{
+    return {
+        type: 'TOGGLE_SIDEMENU'
+    }
+}
+
+export const search = (term)=>{
+    return {
+        type: 'SEARCH',
+        term
+    }
+}

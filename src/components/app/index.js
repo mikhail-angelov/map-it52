@@ -1,6 +1,7 @@
 import React from 'react'
 import DetailsContainer from '../../containers/detailsContainer'
 import MapContainer from '../../containers/mapContainer'
+import SideMenuContainer from '../../containers/sideMenuContainer'
 
 const App = () => (
   <div style={{
@@ -13,6 +14,7 @@ const App = () => (
   }}>
     <DetailsContainer />
     <MapContainer />
+    <SideMenuContainer />
   </div>
 )
 

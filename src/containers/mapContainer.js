@@ -2,18 +2,13 @@ import { connect } from 'react-redux'
 import * as action from '../actions'
 import Map from '../components/map'
 
-const filterMarkers = (markers, searchTerm) => {
-  //todo implement it
-  return markers
-}
-
 const mapStateToProps = (state) => {
   return {
     default: {
       center: { lat: 56.295274, lng: 43.956947 },
       zoom: 13
     },
-    markers: filterMarkers(state.markers),
+    markers: state.markers,
     balloon: state.balloon
   }
 }
