@@ -8,16 +8,37 @@
     width: 1200px;
 }
 
+.details .top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px;
+    width: 100%;
+}
 .details .icon{
-
+    width: 260px;
+    text-align: right;
 }
 
-.details .name{
-	
+.details .info{
+	display: flex;
+    flex: 1;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.details .info .name{
+	margin-bottom: 10px;
+    font-size: 32px;
+}
+.details .info .subTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .details .description{
-	
+	max-height: 300px;
+    overflow: auto;
+    margin: 20px;
 }
 
 .details .details-close{
