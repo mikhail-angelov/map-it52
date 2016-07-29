@@ -8,3 +8,5 @@ This application is based on
 * [Google map react](https://github.com/istarkov/google-map-react)
 
 Data from [hh.ru](hh.ru)
+
+## [Live app](http://mikhail-angelov.github.io/map-it52)
