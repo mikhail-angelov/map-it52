@@ -1,6 +1,6 @@
 import React from 'react'
 import './details.css'
-import icon from '../../assets/placemark.png'
+import icon from '../../assets/placemark.svg'
 
 export default ({details, onClose}) => {
 
