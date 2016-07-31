@@ -9,7 +9,8 @@ const mapStateToProps = (state) => {
       zoom: 13
     },
     markers: state.markers,
-    balloon: state.balloon
+    balloon: state.balloon,
+    changeCenter: (state.detailsInfo && state.detailsInfo.marker)?state.detailsInfo.marker:null
   }
 }
 
