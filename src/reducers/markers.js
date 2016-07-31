@@ -3,7 +3,6 @@ import _ from 'lodash'
 import employers from '../assets/employers.json'
 
 function filter(term) {
-  console.log(term)
   const sorted = _.orderBy(employers,['name'])
   if (term) {
     return _.filter(sorted, marker => (marker.name.toLowerCase().indexOf(term.toLowerCase()) >= 0))

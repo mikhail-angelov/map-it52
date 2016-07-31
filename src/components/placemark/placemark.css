@@ -1,12 +1,13 @@
 .placemark {
     position: absolute;
     top: -16px;
-    left: -16px;
+    left: -10px;
     z-index: 1;
 }
 
 .icon {
 	cursor: pointer;
+    height: 32px;
 }
 
 .hint {
