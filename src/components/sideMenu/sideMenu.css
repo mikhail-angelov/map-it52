@@ -4,11 +4,10 @@
     right: 20px;
     z-index: 101;
     background-color: white;
-    transition: all .7s ease;
-}
-
-.sideMenu.closed{
-    
+    display: flex;
+    width: 50px;
+    overflow: hidden;
+    transform: translateZ(0);
 }
 
 .sideMenu.open{
@@ -20,6 +19,10 @@
     height: 50px;
     font-size: 32px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid;*/
 }
 
 @keyframes changeContent {
@@ -55,30 +58,25 @@ content: "";
 .sideMenu.closed .searchIcon::before{
 content: "🔍";
 }
-/*.sideMenu.open .searchIcon::before{
-content: "";
-}*/
+
 
 .sideMenu.open .searchIcon::after{
 content: "✕";
 }
 
-
-
 .sideMenu .term{
     font-size: 25px;
     height: 28px;
-    margin-top: 8px;
-    margin-left: 45px;
-    margin-right: 10px;
-    width: 240px;
+    margin: 8px;
+    width: 230px;
 }
 
 .sideMenu .top{
     display: flex;
+    flex-direction: column;
 }
 
-.sideMenu .results{
+.sideMenu.open .results{
     overflow: auto;
     max-height: 400px;
     max-width: 300px;
