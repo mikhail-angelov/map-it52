@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import * as action from '../actions'
-import Details from '../components/details'
+import * as action from 'actions'
+import Details from 'components/details'
 
 const mapStateToProps = (state) => {
   return {
@@ -10,7 +10,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onClose: ()=>dispatch(action.closeDetails())
+    onClose: () => dispatch(action.closeDetails())
   }
 }
 
