@@ -25,7 +25,7 @@ export default ({isOpen, results, onSearch, onToggle, onSelect}) => {
                 height: isOpen ? spring(400) : spring(50)
             }}>
             {(style) => (<div className={stateClass} style={{width:style.width}} >
-                <div className='searchIcon' onClick={onToggle}></div>
+                <div className='searchIcon' onClick={()=>onToggle()}></div>
                 <div className='top' style={{maxHeight:style.height}}>
 
                     {inputText}
