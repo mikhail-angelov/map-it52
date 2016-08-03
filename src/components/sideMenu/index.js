@@ -3,17 +3,19 @@ import {Motion, spring} from 'react-motion';
 import './sideMenu.css'
 
 export default ({isOpen, results, onSearch, onToggle, onSelect}) => {
-    var stateClass = 'sideMenu closed'
-    var inputText = null
-    var resultItems = null
+    let stateClass = 'sideMenu closed'
+    let inputText = null
+    let resultItems = null
     if (isOpen) {
         stateClass = 'sideMenu open'
         inputText = <input className='term' onChange={event => onSearch(event.target.value) } />
         if (results) {
-            resultItems = results.map(item => (<div
+            resultItems = results.map(item => (
+              <div
                 className='resultItem'
                 key={item.id}
-                onClick={() => onSelect(item) }>{item.name}</div>))
+                onClick={() => onSelect(item) }>{item.name}</div>
+              ))
         }
     }
 
@@ -25,7 +27,7 @@ export default ({isOpen, results, onSearch, onToggle, onSelect}) => {
                 height: isOpen ? spring(400) : spring(50)
             }}>
             {(style) => (<div className={stateClass} style={{width:style.width}} >
-                <div className='searchIcon' onClick={()=>onToggle()}></div>
+                <div className='searchIcon' onClick={() => onToggle()}></div>
                 <div className='top' style={{maxHeight:style.height}}>
 
                     {inputText}

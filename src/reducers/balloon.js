@@ -1,13 +1,13 @@
 const balloon = (state = null, action) => {
   switch (action.type) {
-    case 'SHOW_BALLOON':
-      return  action.marker
+  case 'SHOW_BALLOON':
+    return  action.marker
 
-    case 'CLOSE_BALLOON':
-      return null
+  case 'CLOSE_BALLOON':
+    return null
 
-    default:
-      return state
+  default:
+    return state
   }
 }
 

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import * as action from '../actions'
-import Map from '../components/map'
+import * as action from 'actions'
+import Map from 'components/map'
 
 const mapStateToProps = (state) => {
   return {

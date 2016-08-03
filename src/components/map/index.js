@@ -26,7 +26,7 @@ export default class SimpleMapPage extends Component {
             key={ marker.id }
             onClick={this.props.onShowBalloon.bind(this, marker) }
             />))
-        if(this.props.balloon){
+        if (this.props.balloon) {
             const balloon = (<Balloon marker={ this.props.balloon }
             lat={ this.props.balloon.lat }
             lng={ this.props.balloon.lng }
@@ -41,7 +41,8 @@ export default class SimpleMapPage extends Component {
             center = [this.props.changeCenter.lat, this.props.changeCenter.lng];
         }
 
-        return (<div style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%' }}>
+        return (
+          <div style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%' }}>
 
             <GoogleMap
                 defaultCenter={this.props.default.center}
@@ -50,6 +51,7 @@ export default class SimpleMapPage extends Component {
                 center={center}>
                 {markers}
             </GoogleMap>
-        </div>)
+        </div>
+      )
     }
 }

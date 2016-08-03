@@ -1,6 +1,6 @@
 import React from 'react'
-import {Motion, spring} from 'react-motion';
-import icon from '../../assets/placemark.svg'
+import { Motion, spring } from 'react-motion';
+import icon from 'assets/placemark.svg'
 import './placemark.css'
 
 export default ({marker, onClick, $hover}) => {
@@ -14,8 +14,11 @@ export default ({marker, onClick, $hover}) => {
                     <img className='icon' src={icon} style={{
                         transform: `translate3D(0,0,0) scale(${style.scale})`
                     }}/>
-                    {$hover ? <div className='hint'> { marker.name } </div> : null}
+
+                    {$hover &&
+                      <div className='hint'> { marker.name } </div>
+                    }
                 </div>
-            ) }
+            )}
         </Motion>)
 }

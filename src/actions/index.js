@@ -1,46 +1,34 @@
 
 import fetch from 'isomorphic-fetch'
 
-export const showBalloon = (marker) => {
-    return {
-        type: 'SHOW_BALLOON',
-        marker
-    }
-}
+export const showBalloon = (marker) => ({
+    type: 'SHOW_BALLOON',
+    marker
+})
 
-export const closeBalloon = () => {
-    return {
-        type: 'CLOSE_BALLOON'
-    }
-}
+export const closeBalloon = () => ({
+    type: 'CLOSE_BALLOON'
+})
 
-export const showDetails = (marker) => {
-    return {
-        type: 'SHOW_DETAILS',
-        marker
-    }
-}
+export const showDetails = (marker) => ({
+    type: 'SHOW_DETAILS',
+    marker
+})
 
-export const closeDetails = () => {
-    return {
-        type: 'CLOSE_DETAILS'
-    }
-}
+export const closeDetails = () => ({
+    type: 'CLOSE_DETAILS'
+})
 
-function requestDetailInfo(marker) {
-    return {
-        type: 'REQUEST_DETAIL_INFO',
-        marker
-    }
-}
+const requestDetailInfo = (marker) => ({
+    type: 'REQUEST_DETAIL_INFO',
+    marker
+})
 
-function receiveDetailInfo(marker, info) {
-    return {
-        type: 'RECEIVE_DETAIL_INFO',
-        marker,
-        info
-    }
-}
+const receiveDetailInfo = (marker, info) => ({
+    type: 'RECEIVE_DETAIL_INFO',
+    marker,
+    info
+})
 
 function fetchDetailInfo(marker) {
     return dispatch => {
@@ -52,7 +40,7 @@ function fetchDetailInfo(marker) {
 }
 
 function shouldFetchDetailInfo(state, marker) {
-    var info = null
+    let info = null
     if (state.detailsInfo.marker && state.detailsInfo.marker.id === marker.id) {
         info = state.detailsInfo.info
     }
@@ -73,18 +61,14 @@ export function fetchDetailInfoIfNeeded(marker) {
     }
 }
 
-export const toggleSideMenu = ()=>{
-    return {
-        type: 'TOGGLE_SIDEMENU'
-    }
-}
+export const toggleSideMenu = () => ({
+    type: 'TOGGLE_SIDEMENU'
+})
 
-export const search = (term)=>{
-    return {
-        type: 'SEARCH',
-        term
-    }
-}
+export const search = (term) => ({
+    type: 'SEARCH',
+    term
+})
 
 export const centralMap = (marker) => ({
     type: 'CENTRAL_MAP',
