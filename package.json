@@ -58,6 +58,8 @@
   "scripts": {
     "start": "node ./scripts/start.js",
     "build": "node ./scripts/build.js",
-    "e2e": "mocha -t 100000 --require co-mocha ./e2e/*.spec.js"
+    "e2e": "mocha -t 100000 --require co-mocha ./test/e2e/*.spec.js",
+    "ut": "mocha --compilers js:test/compiler.js ./test/ut/*.spec.js",
+    "it": "mocha ./test/it/*.spec.js"
   }
 }

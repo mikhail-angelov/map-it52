@@ -1,6 +1,6 @@
 import { filter as _filter, orderBy } from 'lodash'
 //todo: temp solution
-import employers from 'assets/employers.json'
+import employers from '../assets/employers.json'
 
 function filter(term) {
   const sorted = orderBy(employers,['name'])
