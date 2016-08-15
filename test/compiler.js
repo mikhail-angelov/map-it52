@@ -3,7 +3,7 @@ const origJs = require.extensions['.js'];
 
 require.extensions['.js'] = function(module, filename) {
 
-  if (filename.indexOf('node_modules/') >= 0 || filename.indexOf('.spec.') >= 0) {
+  if (filename.indexOf('node_modules/') >= 0) {
     return origJs(module, filename);
   }else{
     console.log('compiling:',filename)
@@ -13,3 +13,7 @@ require.extensions['.js'] = function(module, filename) {
     return module._compile(compiled.code, filename);
   }
 };
+
+require.extensions['.css'] = function(module, filename) {
+  return null
+}
