@@ -1,24 +1,28 @@
 const chai = require('chai')
 const expect = chai.expect
 const reducer = require('../../src/reducers/markers').default
-
+const actions = require('../../src/actions');
 
 describe('marker reducer',()=>{
 
     it('should ignore dummy action',()=>{
-        const state = reducer('test',{type:'BLA-BLA'})
-        expect(state).to.equal('test')
+        const oldState = 'test'
+        const state = reducer(oldState,{type:'BLA-BLA'})
+        expect(state).to.equal(oldState)
     })
 
     it('should handle SEARCH action',()=>{
-        const state = reducer(undefined,{type:'SEARCH', term:'MERA'})
+        const TERM = 'MERA'
+        const action = actions.search(TERM)
+        const state = reducer(undefined,action)
 
         expect(state.length).to.equal(1)
-        expect(state[0].name).to.equal('MERA')
+        expect(state[0].name).to.equal(TERM)
     })
 
     it('should handle TOGGLE_SIDEMENU action',()=>{
-        const state = reducer(undefined,{type:'TOGGLE_SIDEMENU'})
+        const action = actions.toggleSideMenu()
+        const state = reducer(undefined,action)
 
         expect(state.length > 10).to.equal(true)
     })
